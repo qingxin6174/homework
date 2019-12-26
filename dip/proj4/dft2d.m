@@ -1,0 +1,6 @@
+function fmg = dft2d(img) % dft
+[M,N] = size(img);
+[x,y] = ndgrid(1:M,1:N);
+fmg = exp(2*pi*1i/M*(0:M-1)'*(0:M-1)) * ...
+    (double(img).*(-1).^(x+y))        * ...
+    exp(2*pi*1i/N*(0:N-1)'*(0:N-1))   ;
