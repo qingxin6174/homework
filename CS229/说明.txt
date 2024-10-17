@@ -1,0 +1,6 @@
+ps*.pdf          为原始题目
+ps*solutions.pdf 为我做的解答
+keys里为官方公布的答案（目前缺少习题4的答案）
+
+我所做的解答均为当初的原貌，有些有错误。
+所有官方资料可访问 http://cs229.stanford.edu/materials.html
